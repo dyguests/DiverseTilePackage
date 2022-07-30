@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -6,24 +7,57 @@ namespace Koyou
     [CreateAssetMenu(fileName = "DiverseTile", menuName = "2D/Tiles/DiverseTile")]
     public class DiverseTile : RuleTile
     {
-        /// <summary>
-        /// The RuleTile to override
-        /// </summary>
-        public RuleTile m_Tile;
+        [SerializeField] private MatchType matchType;
+        [SerializeField] private string matchMaskIn = "1";
+        [SerializeField] private string matchMaskOut = "1";
 
-        /// <summary>
-        /// Returns the Rule Tile for retrieving TileData
-        /// </summary>
-        [HideInInspector] public RuleTile m_InstanceTile;
+        private int mMatchMaskIn;
+        private int mMatchMaskOut;
 
+        private void OnValidate()
+        {
+            SetDirtyInternal();
+        }
 
-        public MatchType matchType;
-        public int matchMaskIn;
-        public int matchMaskOut;
+        private void SetDirtyInternal()
+        {
+            matchMaskIn = matchMaskIn != null ? Regex.Replace(matchMaskIn, @"[^01]", "") : "0";
+            if (matchType == MatchType.MatchMask)
+            {
+                matchMaskOut = matchMaskIn;
+            }
+            else
+            {
+                matchMaskOut = matchMaskOut != null ? Regex.Replace(matchMaskOut, @"[^01]", "") : "0";
+            }
+
+            mMatchMaskIn = int.Parse(matchMaskIn);
+            mMatchMaskOut = int.Parse(matchMaskOut);
+        }
 
         public override bool RuleMatch(int neighbor, TileBase other)
         {
-            return base.RuleMatch(neighbor, other);
+            if (matchType == MatchType.Normal)
+            {
+                return base.RuleMatch(neighbor, other);
+            }
+
+            int otherMatchMaskOut = 1;
+            if (other is DiverseTile diverseTile)
+            {
+                otherMatchMaskOut = diverseTile.mMatchMaskIn;
+            }
+
+            if (matchType == MatchType.MatchMask || matchType == MatchType.MatchMaskIO)
+            {
+                switch (neighbor)
+                {
+                    case TilingRuleOutput.Neighbor.This: return (otherMatchMaskOut & mMatchMaskIn) > 0;
+                    case TilingRuleOutput.Neighbor.NotThis: return (otherMatchMaskOut & mMatchMaskIn) == 0;
+                }
+            }
+
+            return true;
         }
 
         public enum MatchType

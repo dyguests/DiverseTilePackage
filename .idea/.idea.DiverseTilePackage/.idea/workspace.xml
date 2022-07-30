@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="DiverseTileEditor.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="MatchType">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/DiverseTileEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/DiverseTileEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/20/79520f26/EditorGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleTile/RuleTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
@@ -73,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="6186000" />
+      <workItem from="1659156677636" duration="6576000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659174645549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MatchType">
+      <created>1659179964834</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659179964834</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
     <MESSAGE value="add DiverseTile." />
     <MESSAGE value="DiverseTile." />
     <MESSAGE value="DiverseTileEditor." />
-    <option name="LAST_COMMIT_MESSAGE" value="DiverseTileEditor." />
+    <MESSAGE value="MatchType" />
+    <option name="LAST_COMMIT_MESSAGE" value="MatchType" />
   </component>
 </project>

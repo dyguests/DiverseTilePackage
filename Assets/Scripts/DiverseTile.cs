@@ -1,10 +1,7 @@
 using UnityEngine;
 
-public class DiverseTile : MonoBehaviour
+namespace Koyou
 {
-    // Start is called before the first frame update
-    void Start() { }
-
-    // Update is called once per frame
-    void Update() { }
+    [CreateAssetMenu(fileName = "DiverseTile", menuName = "2D/Tiles/DiverseTile")]
+    public class DiverseTile : RuleTile { }
 }

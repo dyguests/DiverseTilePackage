@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.koyou.tilemap": {
-      "version": "file:com.koyou.tilemap",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.2d.tilemap.extras": "2.2.2"
-      }
-    },
     "com.unity.2d.animation": {
       "version": "7.0.5",
       "depth": 1,

@@ -21,14 +21,14 @@ namespace Koyou
 
         private void SetDirtyInternal()
         {
-            matchMaskIn = matchMaskIn != null ? Regex.Replace(matchMaskIn, @"[^01]", "") : "0";
+            matchMaskIn = !string.IsNullOrEmpty(matchMaskIn) ? Regex.Replace(matchMaskIn, @"[^01]", "") : "1";
             if (matchType == MatchType.MatchMask)
             {
                 matchMaskOut = matchMaskIn;
             }
             else
             {
-                matchMaskOut = matchMaskOut != null ? Regex.Replace(matchMaskOut, @"[^01]", "") : "0";
+                matchMaskOut = !string.IsNullOrEmpty(matchMaskOut) ? Regex.Replace(matchMaskOut, @"[^01]", "") : "1";
             }
 
             mMatchMaskIn = int.Parse(matchMaskIn);
@@ -41,6 +41,8 @@ namespace Koyou
             {
                 return base.RuleMatch(neighbor, other);
             }
+
+            if (other is RuleOverrideTile) other = (other as RuleOverrideTile).m_InstanceTile;
 
             int otherMatchMaskOut = 1;
             if (other is DiverseTile diverseTile)

@@ -444,6 +444,6 @@ MonoBehaviour:
     - {x: 0, y: -1, z: 0}
     - {x: 1, y: -1, z: 0}
     m_RuleTransform: 0
-  matchType: 0
+  matchType: 1
   matchMaskIn: 1
   matchMaskOut: 1

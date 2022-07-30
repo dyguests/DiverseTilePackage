@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="DiverseTileEditor">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="red diverse tile.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/GreenDiverseTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/GreenDiverseTile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/RedDiverseTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/RedDiverseTile.asset" afterDir="false" />
     </list>
@@ -18,6 +19,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/a9/0e182de2/L10n.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/0a/4f433569/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -85,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="12634000" />
+      <workItem from="1659156677636" duration="13018000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659196797857</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="red diverse tile.">
+      <created>1659197216166</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659197216166</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +247,7 @@
     <MESSAGE value="DiverseTile." />
     <MESSAGE value="DiverseTile" />
     <MESSAGE value="DiverseTileEditor" />
-    <option name="LAST_COMMIT_MESSAGE" value="DiverseTileEditor" />
+    <MESSAGE value="red diverse tile." />
+    <option name="LAST_COMMIT_MESSAGE" value="red diverse tile." />
   </component>
 </project>

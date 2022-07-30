@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="red diverse tile.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="match has some problem.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/GreenDiverseTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/GreenDiverseTile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/RedDiverseTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/RedDiverseTile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/BlueDiverseTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/BlueDiverseTile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/DiverseTilePalette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/DiverseTilePalette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/GreenRuleTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemaps/GreenRuleTile.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/a9/0e182de2/L10n.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/0a/4f433569/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
@@ -28,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/20/79520f26/EditorGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/c1/209a89d9/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/23/8f1203b4/ReorderableList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -87,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="13018000" />
+      <workItem from="1659156677636" duration="14037000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -194,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659197216166</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="match has some problem.">
+      <created>1659197610248</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659197610248</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +258,7 @@
     <MESSAGE value="DiverseTile" />
     <MESSAGE value="DiverseTileEditor" />
     <MESSAGE value="red diverse tile." />
-    <option name="LAST_COMMIT_MESSAGE" value="red diverse tile." />
+    <MESSAGE value="match has some problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="match has some problem." />
   </component>
 </project>

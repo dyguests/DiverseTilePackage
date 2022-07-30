@@ -8,8 +8,12 @@ namespace Koyou
     public class DiverseTile : RuleTile
     {
         [SerializeField] private MatchType matchType;
-        [SerializeField] private string matchMaskIn = "1";
-        [SerializeField] private string matchMaskOut = "1";
+
+        [Tooltip("Binary Digits")] [SerializeField]
+        private string matchMaskIn = "00000000000000000000000000000001";
+
+        [Tooltip("Binary Digits")] [SerializeField]
+        private string matchMaskOut = "00000000000000000000000000000001";
 
         private int mMatchMaskIn;
         private int mMatchMaskOut;
@@ -21,14 +25,31 @@ namespace Koyou
 
         private void SetDirtyInternal()
         {
-            matchMaskIn = !string.IsNullOrEmpty(matchMaskIn) ? Regex.Replace(matchMaskIn, @"[^01]", "") : "1";
+            if (!string.IsNullOrEmpty(matchMaskIn))
+            {
+                matchMaskIn = Regex.Replace(matchMaskIn, @"[^01]", "");
+            }
+
+            if (string.IsNullOrEmpty(matchMaskIn))
+            {
+                matchMaskIn = "00000000000000000000000000000001";
+            }
+
             if (matchType == MatchType.MatchMask)
             {
                 matchMaskOut = matchMaskIn;
             }
             else
             {
-                matchMaskOut = !string.IsNullOrEmpty(matchMaskOut) ? Regex.Replace(matchMaskOut, @"[^01]", "") : "1";
+                if (!string.IsNullOrEmpty(matchMaskOut))
+                {
+                    matchMaskOut = Regex.Replace(matchMaskOut, @"[^01]", "");
+                }
+
+                if (string.IsNullOrEmpty(matchMaskOut))
+                {
+                    matchMaskOut = "00000000000000000000000000000001";
+                }
             }
 
             mMatchMaskIn = int.Parse(matchMaskIn);
@@ -44,10 +65,14 @@ namespace Koyou
 
             if (other is RuleOverrideTile) other = (other as RuleOverrideTile).m_InstanceTile;
 
-            int otherMatchMaskOut = 1;
+            int otherMatchMaskOut = 0;
             if (other is DiverseTile diverseTile)
             {
                 otherMatchMaskOut = diverseTile.mMatchMaskIn;
+            }
+            else if (other is RuleTile ruleTile)
+            {
+                otherMatchMaskOut = 1;
             }
 
             if (matchType == MatchType.MatchMask || matchType == MatchType.MatchMaskIO)

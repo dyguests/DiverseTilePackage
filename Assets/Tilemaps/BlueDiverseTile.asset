@@ -16,3 +16,6 @@ MonoBehaviour:
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 2
   m_TilingRules: []
+  matchType: 1
+  matchMaskIn: 1
+  matchMaskOut: 1

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Koyou
 {
@@ -6,5 +7,10 @@ namespace Koyou
     public class DiverseTile : RuleTile
     {
         
+        
+        public override bool RuleMatch(int neighbor, TileBase other)
+        {
+            return base.RuleMatch(neighbor, other);
+        }
     }
 }

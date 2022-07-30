@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="Init project.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Rule Tile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Rule Tile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/com.koyou.tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleTile/RuleTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/Scripts/DiverseTile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,8 +69,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="649000" />
+      <workItem from="1659156677636" duration="2667000" />
     </task>
+    <task id="LOCAL-00001" summary="Init project.">
+      <created>1659166543155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659166543155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,7 +86,20 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Init project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Init project." />
   </component>
 </project>

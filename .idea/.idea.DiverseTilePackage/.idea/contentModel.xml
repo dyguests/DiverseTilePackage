@@ -5,18 +5,9 @@
     <e p="C:\Users\ayyk\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_DiverseTilePackage.-1804847134.00" t="ExcludeRecursive" />
     <e p="E:\UnityProjects\DiverseTilePackage" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="asset-store-tools-editor.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="com.koyou.tilemap" t="Include">
-          <e p="Editor" t="Include">
-            <e p="DiverseTileEditor.cs" t="Include" />
-          </e>
-          <e p="package.json" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="DiverseTile.cs" t="Include" />
-          </e>
-        </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
@@ -26,11 +17,123 @@
               <e p="UnityAPIWrapper.cs" t="Include" />
             </e>
           </e>
+          <e p="Koyou" t="Include">
+            <e p="Tilemap" t="Include">
+              <e p="Editor" t="Include">
+                <e p="DiverseTileEditor.cs" t="Include" />
+              </e>
+              <e p="package.json" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="DiverseTile.cs" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="DiverseTilePackage.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive">
+        <e p="com.unity.asset-store-tools" t="Include">
+          <e p="Editor" t="Include">
+            <e p="asset-store-tools-editor.asmdef" t="Include" />
+            <e p="AssetStoreTools.cs" t="Include" />
+            <e p="AssetStoreToolsWindow.cs" t="Include" />
+            <e p="AssetStoreUploader" t="Include">
+              <e p="AssetStoreUploader.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="ASDebug.cs" t="Include" />
+                <e p="ASError.cs" t="Include" />
+                <e p="AssetStoreAPI.cs" t="Include" />
+                <e p="AssetStoreCache.cs" t="Include" />
+                <e p="LoginWindow" t="Include">
+                  <e p="LoginWindow.cs" t="Include" />
+                </e>
+                <e p="OngoingUpload.cs" t="Include" />
+                <e p="PackageExporter.cs" t="Include" />
+                <e p="PackageUploadResult.cs" t="Include" />
+                <e p="StyleSelector.cs" t="Include" />
+                <e p="UploadWindow" t="Include">
+                  <e p="AllPackageView" t="Include">
+                    <e p="AllPackageView.cs" t="Include" />
+                    <e p="FolderUploadWorkflowView.cs" t="Include" />
+                    <e p="HybridPackageUploadWorkflowView.cs" t="Include" />
+                    <e p="Package.cs" t="Include" />
+                    <e p="PackageGroup.cs" t="Include" />
+                    <e p="PackageStorer.cs" t="Include" />
+                    <e p="UnityPackageUploadWorkflowView.cs" t="Include" />
+                    <e p="ValidationElement.cs" t="Include" />
+                  </e>
+                  <e p="UploadWindow.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Styles" t="Include">
+                <e p="Base" t="Include">
+                  <e p="BaseWindow_Dark.uss" t="Include" />
+                  <e p="BaseWindow_Light.uss" t="Include" />
+                  <e p="BaseWindow_Main.uss" t="Include" />
+                  <e p="BaseWindow_Main.uxml" t="Include" />
+                </e>
+                <e p="Login" t="Include">
+                  <e p="Login_Dark.uss" t="Include" />
+                  <e p="Login_Light.uss" t="Include" />
+                  <e p="Login_Main.uss" t="Include" />
+                </e>
+                <e p="Upload" t="Include">
+                  <e p="AllPackages" t="Include">
+                    <e p="AllPackages_Dark.uss" t="Include" />
+                    <e p="AllPackages_Light.uss" t="Include" />
+                    <e p="AllPackages_Main.uss" t="Include" />
+                  </e>
+                  <e p="UploadWindow_Dark.uss" t="Include" />
+                  <e p="UploadWindow_Light.uss" t="Include" />
+                  <e p="UploadWindow_Main.uss" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="AssetStoreValidator" t="Include">
+              <e p="AssetStoreValidation.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="Data" t="Include">
+                  <e p="MessageActions.cs" t="Include" />
+                  <e p="TestResult.cs" t="Include" />
+                  <e p="ValidationState.cs" t="Include" />
+                </e>
+                <e p="Elements" t="Include">
+                  <e p="AutomatedTestElement.cs" t="Include" />
+                  <e p="AutomatedTestsGroup.cs" t="Include" />
+                  <e p="AutomatedTestsGroupElement.cs" t="Include" />
+                  <e p="PathBoxElement.cs" t="Include" />
+                  <e p="ValidationInfoElement.cs" t="Include" />
+                </e>
+                <e p="Test Definitions" t="Include">
+                  <e p="AutomatedTest.cs" t="Include" />
+                  <e p="ScriptableObjects" t="Include">
+                    <e p="AutomatedTestScriptableObject.cs" t="Include" />
+                    <e p="Editor" t="Include">
+                      <e p="ValidationTestScriptableObjectInspector.cs" t="Include" />
+                    </e>
+                    <e p="ValidationTestScriptableObject.cs" t="Include" />
+                  </e>
+                  <e p="ValidationTest.cs" t="Include" />
+                </e>
+                <e p="TestActions.cs" t="Include" />
+                <e p="Utility" t="Include">
+                  <e p="ValidatorUtility.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Styles" t="Include">
+                <e p="AssetStoreValidator_Dark.uss" t="Include" />
+                <e p="AssetStoreValidator_Light.uss" t="Include" />
+                <e p="AssetStoreValidator_Main.uss" t="Include" />
+              </e>
+            </e>
+            <e p="Utility" t="Include">
+              <e p="Json.cs" t="Include" />
+              <e p="LegacyToolsRemover.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Temp\Bin" t="ExcludeRecursive" />
     </e>
   </component>

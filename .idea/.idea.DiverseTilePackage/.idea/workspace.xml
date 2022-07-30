@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add  license.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="move to assets.">
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.asset-store-tools.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Editor/DiverseTileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Editor/DiverseTileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Scenes/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Scenes/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Sprites/terrian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Sprites/terrian.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/BlueDiverseTile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/BlueDiverseTile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/DiverseTilePalette.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/DiverseTilePalette.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/GreenDiverseTile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/GreenDiverseTile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/GreenRuleTile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/GreenRuleTile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/RedDiverseTile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/RedDiverseTile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/RedRuleTile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Samples/Tilemaps/RedRuleTile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Scripts/DiverseTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/Scripts/DiverseTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/THIRD PARTY NOTICES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/THIRD PARTY NOTICES.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.koyou.tilemap/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +60,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/a9/0e182de2/L10n.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Pixel Adventure 1/Assets/Background/Blue.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Tilemaps/BlueDiverseTile.asset" root0="SKIP_HIGHLIGHTING" />
@@ -37,7 +78,6 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Tilemaps/BlueDiverseTile.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/com.koyou.tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/20/79520f26/EditorGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/c1/209a89d9/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -103,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="16921000" />
+      <workItem from="1659156677636" duration="17435000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -266,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659200645717</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="cannot export.">
+      <created>1659201558491</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659201558491</updated>
+    </task>
+    <task id="LOCAL-00025" summary="move to assets.">
+      <created>1659201753401</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659201753401</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +380,8 @@
     <MESSAGE value="move to package." />
     <MESSAGE value="rename package." />
     <MESSAGE value="add  license." />
-    <option name="LAST_COMMIT_MESSAGE" value="add  license." />
+    <MESSAGE value="cannot export." />
+    <MESSAGE value="move to assets." />
+    <option name="LAST_COMMIT_MESSAGE" value="move to assets." />
   </component>
 </project>

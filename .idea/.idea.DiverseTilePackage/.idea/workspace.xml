@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="move to package.">
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Scenes/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Scenes/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Sprites/terrian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Sprites/terrian.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/BlueDiverseTile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/BlueDiverseTile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/DiverseTilePalette.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/DiverseTilePalette.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/GreenDiverseTile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/GreenDiverseTile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/GreenRuleTile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/GreenRuleTile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/RedDiverseTile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/RedDiverseTile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/RedRuleTile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/Tilemaps/RedRuleTile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="rename package.">
+      <change afterPath="$PROJECT_DIR$/Packages/com.koyou.tilemap/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.koyou.tilemap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.koyou.tilemap/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +22,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/a9/0e182de2/L10n.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Pixel Adventure 1/Assets/Background/Blue.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Tilemaps/BlueDiverseTile.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
@@ -59,6 +43,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/c1/209a89d9/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Editor/DiverseTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/fb/6d9336fa/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Pixel Adventure 1/Assets/Background/Blue.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleTile/RuleTile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -68,6 +53,8 @@
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleTile/RuleTile.cs" />
       <option value="$PROJECT_DIR$/Assets/Editor/DiverseTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/package.json" />
+      <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/CHANGELOG.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -114,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="15254000" />
+      <workItem from="1659156677636" duration="15892000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -256,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659199611342</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="move to package.">
+      <created>1659199895310</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659199895310</updated>
+    </task>
+    <task id="LOCAL-00022" summary="rename package.">
+      <created>1659200075108</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659200075108</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +315,7 @@
     <MESSAGE value="add red rule tile." />
     <MESSAGE value="diverse rule tile." />
     <MESSAGE value="move to package." />
-    <option name="LAST_COMMIT_MESSAGE" value="move to package." />
+    <MESSAGE value="rename package." />
+    <option name="LAST_COMMIT_MESSAGE" value="rename package." />
   </component>
 </project>

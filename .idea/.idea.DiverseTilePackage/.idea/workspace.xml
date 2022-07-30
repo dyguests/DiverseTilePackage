@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="DiverseTile.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add DiverseTile.">
+      <change afterPath="$PROJECT_DIR$/Packages/com.koyou.tilemap/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/terrian.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/terrian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/terrian.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/terrian.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +29,13 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/Scripts/DiverseTile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DiverseTile.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/README.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
-      <workItem from="1659156677636" duration="2828000" />
+      <workItem from="1659156677636" duration="3560000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -83,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659169375378</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add DiverseTile.">
+      <created>1659169469559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659169469559</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +147,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init project." />
     <MESSAGE value="DiverseTile." />
-    <option name="LAST_COMMIT_MESSAGE" value="DiverseTile." />
+    <MESSAGE value="add DiverseTile." />
+    <option name="LAST_COMMIT_MESSAGE" value="add DiverseTile." />
   </component>
 </project>

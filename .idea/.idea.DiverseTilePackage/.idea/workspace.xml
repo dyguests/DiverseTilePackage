@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="CrossTilemap show error.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="fix anyRelatedMatch">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" afterDir="false" />
     </list>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659249504426</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="fix anyRelatedMatch">
+      <created>1659249939058</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1659249939058</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="MatchType" />
     <MESSAGE value="DiverseTile." />
     <MESSAGE value="DiverseTile" />
     <MESSAGE value="DiverseTileEditor" />
@@ -449,6 +455,7 @@
     <MESSAGE value="add RuleMatches rotate." />
     <MESSAGE value="add RuleMatches mirror." />
     <MESSAGE value="CrossTilemap show error." />
-    <option name="LAST_COMMIT_MESSAGE" value="CrossTilemap show error." />
+    <MESSAGE value="fix anyRelatedMatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix anyRelatedMatch" />
   </component>
 </project>

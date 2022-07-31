@@ -111,22 +111,7 @@ namespace Koyou
                 int neighbor = rule.m_Neighbors[i];
                 Vector3Int positionOffset = GetRotatedPosition(rule.m_NeighborPositions[i], angle);
                 TileBase other = tilemap.GetTile(GetOffsetPosition(position, positionOffset));
-                if (!RuleMatch(neighbor, other))
-                {
-                    var anyRelatedMatch = false;
-                    foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
-                    {
-                        var relatedTilemap = relatedCrossTilemap.Tilemap;
-                        var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
-                        if (RuleMatch(neighbor, relatedOther))
-                        {
-                            anyRelatedMatch = true;
-                            break;
-                        }
-                    }
-
-                    if (!anyRelatedMatch) return false;
-                }
+                if (!RuleMatchesIncludeRelated(position, crossTilemap, neighbor, other, positionOffset)) return false;
             }
 
             return true;
@@ -155,21 +140,45 @@ namespace Koyou
                 int neighbor = rule.m_Neighbors[i];
                 Vector3Int positionOffset = GetMirroredPosition(rule.m_NeighborPositions[i], mirrorX, mirrorY);
                 TileBase other = tilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                if (!RuleMatchesIncludeRelated(position, crossTilemap, neighbor, other, positionOffset)) return false;
+            }
+
+            return true;
+        }
+
+        private bool RuleMatchesIncludeRelated(Vector3Int position, CrossTilemap crossTilemap, int neighbor, TileBase other, Vector3Int positionOffset)
+        {
+            if (neighbor == TilingRuleOutput.Neighbor.This && !RuleMatch(neighbor, other))
+            {
+                var anyRelatedMatch = false;
+                foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
+                {
+                    var relatedTilemap = relatedCrossTilemap.Tilemap;
+                    var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                    if (RuleMatch(neighbor, relatedOther))
+                    {
+                        anyRelatedMatch = true;
+                        break;
+                    }
+                }
+
+                if (!anyRelatedMatch) return false;
+            }
+            else if (neighbor == TilingRuleOutput.Neighbor.NotThis)
+            {
                 if (!RuleMatch(neighbor, other))
                 {
-                    var anyRelatedMatch = false;
-                    foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
-                    {
-                        var relatedTilemap = relatedCrossTilemap.Tilemap;
-                        var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
-                        if (RuleMatch(neighbor, relatedOther))
-                        {
-                            anyRelatedMatch = true;
-                            break;
-                        }
-                    }
+                    return false;
+                }
 
-                    if (!anyRelatedMatch) return false;
+                foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
+                {
+                    var relatedTilemap = relatedCrossTilemap.Tilemap;
+                    var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                    if (!RuleMatch(neighbor, relatedOther))
+                    {
+                        return false;
+                    }
                 }
             }
 

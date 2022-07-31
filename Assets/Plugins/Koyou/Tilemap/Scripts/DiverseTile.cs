@@ -87,6 +87,16 @@ namespace Koyou
             return true;
         }
 
+        public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, int angle)
+        {
+            return base.RuleMatches(rule, position, tilemap, angle);
+        }
+
+        public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, bool mirrorX, bool mirrorY)
+        {
+            return base.RuleMatches(rule, position, tilemap, mirrorX, mirrorY);
+        }
+
         public enum MatchType
         {
             Normal,

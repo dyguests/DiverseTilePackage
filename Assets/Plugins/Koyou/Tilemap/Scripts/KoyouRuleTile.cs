@@ -768,7 +768,7 @@ namespace Koyou
         /// <param name="tilemap">Tilemap to match.</param>
         /// <param name="angle">Rotation angle for matching.</param>
         /// <returns>True if there is a match, False if not.</returns>
-        public bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, int angle)
+        public virtual bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, int angle)
         {
             var minCount = Math.Min(rule.m_Neighbors.Count, rule.m_NeighborPositions.Count);
             for (int i = 0; i < minCount; i++)
@@ -794,7 +794,7 @@ namespace Koyou
         /// <param name="mirrorX">Mirror X Axis for matching.</param>
         /// <param name="mirrorY">Mirror Y Axis for matching.</param>
         /// <returns>True if there is a match, False if not.</returns>
-        public bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, bool mirrorX, bool mirrorY)
+        public virtual bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, bool mirrorX, bool mirrorY)
         {
             var minCount = Math.Min(rule.m_Neighbors.Count, rule.m_NeighborPositions.Count);
             for (int i = 0; i < minCount; i++)

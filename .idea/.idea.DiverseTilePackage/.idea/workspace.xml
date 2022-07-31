@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add CrossTilemap.">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" afterDir="false" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add koyou rule tile editor.">
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +53,11 @@
       <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/RuleTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -113,7 +107,7 @@
       <updated>1659156671511</updated>
       <workItem from="1659156677636" duration="18201000" />
       <workItem from="1659238134277" duration="1473000" />
-      <workItem from="1659240778234" duration="3878000" />
+      <workItem from="1659240778234" duration="4380000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -332,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659241426452</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add koyou rule tile editor.">
+      <created>1659247400814</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1659247400814</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +402,7 @@
     <MESSAGE value="update package.json." />
     <MESSAGE value="fix match in out." />
     <MESSAGE value="add CrossTilemap." />
-    <option name="LAST_COMMIT_MESSAGE" value="add CrossTilemap." />
+    <MESSAGE value="add koyou rule tile editor." />
+    <option name="LAST_COMMIT_MESSAGE" value="add koyou rule tile editor." />
   </component>
 </project>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="update package.json.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="fix match in out.">
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Sprites/terrian.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Sprites/terrian.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/DiverseTilePalette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/DiverseTilePalette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,16 +23,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/a9/0e182de2/L10n.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/0a/4f433569/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8112957-A7A3-4D87-A937-D9817F2A04C2/c3/01dc057f/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/20/79520f26/EditorGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/c1/209a89d9/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/23/8f1203b4/ReorderableList.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/fb/6d9336fa/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleTile/RuleTile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -54,6 +51,7 @@
       <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -103,7 +101,7 @@
       <updated>1659156671511</updated>
       <workItem from="1659156677636" duration="18201000" />
       <workItem from="1659238134277" duration="1473000" />
-      <workItem from="1659240778234" duration="113000" />
+      <workItem from="1659240778234" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -308,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659238995297</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix match in out.">
+      <created>1659240922955</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1659240922955</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +380,7 @@
     <MESSAGE value="fix readme." />
     <MESSAGE value="fix readme 2." />
     <MESSAGE value="update package.json." />
-    <option name="LAST_COMMIT_MESSAGE" value="update package.json." />
+    <MESSAGE value="fix match in out." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix match in out." />
   </component>
 </project>

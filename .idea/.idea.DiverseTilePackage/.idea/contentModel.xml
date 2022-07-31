@@ -24,6 +24,7 @@
               </e>
               <e p="package.json" t="Include" />
               <e p="Scripts" t="Include">
+                <e p="CrossTilemap.cs" t="Include" />
                 <e p="DiverseTile.cs" t="Include" />
               </e>
             </e>

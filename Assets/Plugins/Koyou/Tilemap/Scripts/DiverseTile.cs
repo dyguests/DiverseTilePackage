@@ -125,10 +125,7 @@ namespace Koyou
                         }
                     }
 
-                    if (anyRelatedMatch) return true;
-
-
-                    return false;
+                    if (!anyRelatedMatch) return false;
                 }
             }
 
@@ -172,10 +169,7 @@ namespace Koyou
                         }
                     }
 
-                    if (anyRelatedMatch) return true;
-
-
-                    return false;
+                    if (!anyRelatedMatch) return false;
                 }
             }
 

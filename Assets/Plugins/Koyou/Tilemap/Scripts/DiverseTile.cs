@@ -1,3 +1,4 @@
+using System;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -104,7 +105,25 @@ namespace Koyou
 
         private bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, CrossTilemap crossTilemap, in int angle)
         {
-            return false;
+            var minCount = Math.Min(rule.m_Neighbors.Count, rule.m_NeighborPositions.Count);
+            for (int i = 0; i < minCount; i++)
+            {
+                int neighbor = rule.m_Neighbors[i];
+                Vector3Int positionOffset = GetRotatedPosition(rule.m_NeighborPositions[i], angle);
+                TileBase other = tilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                if (!RuleMatch(neighbor, other))
+                {
+                    foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
+                    {
+                        var relatedTilemap = relatedCrossTilemap.Tilemap;
+                        // todo
+                    }
+
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, bool mirrorX, bool mirrorY)

@@ -5,9 +5,9 @@
   "description": "Customize the interaction between different Rule Tiles",
   "unity": "2019.1",
   "unityRelease": "0b5",
-  "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
+  "documentationUrl": "https://github.com/dyguests/DiverseTilePackage/blob/package2/Assets/Plugins/Koyou/Tilemap/README.md",
+  "changelogUrl": "https://github.com/dyguests/DiverseTilePackage/blob/package2/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md",
+  "licensesUrl": "https://github.com/dyguests/DiverseTilePackage/blob/package2/Assets/Plugins/Koyou/Tilemap/LICENSE.md",
   "dependencies": {
     "com.unity.2d.tilemap.extras": "2.2.2"
  },
@@ -18,7 +18,7 @@
   ],
   "author": {
     "name": "dyguests",
-    "email": "unity@example.com",
-    "url": "https://www.unity3d.com"
+    "email": "dyguests@qq.com",
+    "url": "https://github.com/dyguests/DiverseTilePackage"
   }
 }

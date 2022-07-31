@@ -68,7 +68,7 @@ namespace Koyou
             int otherMatchMaskOut = 0;
             if (other is DiverseTile diverseTile)
             {
-                otherMatchMaskOut = diverseTile.mMatchMaskIn;
+                otherMatchMaskOut = diverseTile.mMatchMaskOut;
             }
             else if (other is RuleTile ruleTile)
             {

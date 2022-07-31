@@ -1799,7 +1799,7 @@ TextureImporter:
       name: terrian_80
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 8
         width: 8
         height: 8
@@ -1820,7 +1820,7 @@ TextureImporter:
       name: terrian_81
       rect:
         serializedVersion: 2
-        x: 40
+        x: 8
         y: 8
         width: 8
         height: 8
@@ -1841,7 +1841,7 @@ TextureImporter:
       name: terrian_82
       rect:
         serializedVersion: 2
-        x: 48
+        x: 16
         y: 8
         width: 8
         height: 8
@@ -1862,7 +1862,7 @@ TextureImporter:
       name: terrian_83
       rect:
         serializedVersion: 2
-        x: 56
+        x: 24
         y: 8
         width: 8
         height: 8
@@ -1883,7 +1883,7 @@ TextureImporter:
       name: terrian_84
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 0
         width: 8
         height: 8
@@ -1904,7 +1904,7 @@ TextureImporter:
       name: terrian_85
       rect:
         serializedVersion: 2
-        x: 40
+        x: 8
         y: 0
         width: 8
         height: 8
@@ -1925,7 +1925,7 @@ TextureImporter:
       name: terrian_86
       rect:
         serializedVersion: 2
-        x: 48
+        x: 16
         y: 0
         width: 8
         height: 8
@@ -1946,7 +1946,7 @@ TextureImporter:
       name: terrian_87
       rect:
         serializedVersion: 2
-        x: 56
+        x: 24
         y: 0
         width: 8
         height: 8
@@ -1959,6 +1959,27 @@ TextureImporter:
       bones: []
       spriteID: 9980f094680f97347869e4b2f16d7709
       internalID: 1200715391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrian_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072f7a2c5bb637a40b69abc58c507130
+      internalID: 1099322869
       vertices: []
       indices: 
       edges: []
@@ -2052,6 +2073,7 @@ TextureImporter:
       terrian_1: -919559191
       terrian_31: -130073180
       terrian_33: -1375914383
+      terrian_88: 1099322869
       terrian_24: -1220354681
       terrian_83: -198809864
       terrian_13: 331728021

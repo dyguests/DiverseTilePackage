@@ -113,11 +113,20 @@ namespace Koyou
                 TileBase other = tilemap.GetTile(GetOffsetPosition(position, positionOffset));
                 if (!RuleMatch(neighbor, other))
                 {
+                    var anyRelatedMatch = false;
                     foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
                     {
                         var relatedTilemap = relatedCrossTilemap.Tilemap;
-                        // todo
+                        var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                        if (RuleMatch(neighbor, relatedOther))
+                        {
+                            anyRelatedMatch = true;
+                            break;
+                        }
                     }
+
+                    if (anyRelatedMatch) return true;
+
 
                     return false;
                 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="match include crossTilemap.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="update package.json.">
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

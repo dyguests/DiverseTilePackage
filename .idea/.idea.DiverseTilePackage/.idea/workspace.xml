@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="doc.">
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="update doc.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,28 +19,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/30B83E79-EAE4-4645-AEB0-11DDCAD1CE76/33/ec07e29c/RequiredByNativeCodeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8112957-A7A3-4D87-A937-D9817F2A04C2/a6/220cd505/TileBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/a9/0e182de2/L10n.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/0a/4f433569/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8112957-A7A3-4D87-A937-D9817F2A04C2/c3/01dc057f/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/8a/5d2b6be0/EditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/ThornDiverseTile.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8112957-A7A3-4D87-A937-D9817F2A04C2/fc/1e8055c0/ITilemap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/23/8f1203b4/ReorderableList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8112957-A7A3-4D87-A937-D9817F2A04C2/a6/220cd505/TileBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/0a/4f433569/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/b6/7ec5d34a/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/8a/5d2b6be0/EditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8112957-A7A3-4D87-A937-D9817F2A04C2/fc/1e8055c0/ITilemap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/ThornDiverseTile.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/20/79520f26/EditorGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/c1/209a89d9/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DF1A03EC-30C1-4637-9D80-3C850C515D48/23/8f1203b4/ReorderableList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/066B41AD-FD1C-4A3B-9075-9D491F1499E8/fb/6d9336fa/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProjects/DiverseTilePackage/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/ThornDiverseTile.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/RuleTile/RuleTile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,7 +60,6 @@
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/CHANGELOG.md" />
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/THIRD PARTY NOTICES.md" />
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/LICENSE.md" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/RuleTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs" />
@@ -66,6 +70,7 @@
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -418,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659252721062</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update doc.">
+      <created>1659252860717</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1659252860717</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +477,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="match has some problem." />
     <MESSAGE value="add red rule tile." />
     <MESSAGE value="diverse rule tile." />
     <MESSAGE value="move to package." />
@@ -490,6 +501,7 @@
     <MESSAGE value="update sprite." />
     <MESSAGE value="cross-tilemap works." />
     <MESSAGE value="doc." />
-    <option name="LAST_COMMIT_MESSAGE" value="doc." />
+    <MESSAGE value="update doc." />
+    <option name="LAST_COMMIT_MESSAGE" value="update doc." />
   </component>
 </project>

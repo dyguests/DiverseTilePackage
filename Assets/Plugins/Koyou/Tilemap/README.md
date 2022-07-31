@@ -3,6 +3,7 @@
 ## Ability
 
 Added DiverseTile to handle interactions between different RuleTiles.
+Added CrossTilemap to handle interactions between different Tilemaps.
 
 ## References
 

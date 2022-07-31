@@ -148,38 +148,46 @@ namespace Koyou
 
         private bool RuleMatchesIncludeRelated(Vector3Int position, CrossTilemap crossTilemap, int neighbor, TileBase other, Vector3Int positionOffset)
         {
-            if (neighbor == TilingRuleOutput.Neighbor.This && !RuleMatch(neighbor, other))
+            if (neighbor == TilingRuleOutput.Neighbor.This)
             {
-                var anyRelatedMatch = false;
-                foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
+                bool anyRelatedMatch = RuleMatch(neighbor, other);
+
+                if (!anyRelatedMatch)
                 {
-                    var relatedTilemap = relatedCrossTilemap.Tilemap;
-                    var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
-                    if (RuleMatch(neighbor, relatedOther))
+                    foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
                     {
-                        anyRelatedMatch = true;
-                        break;
+                        var relatedTilemap = relatedCrossTilemap.Tilemap;
+                        var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                        if (RuleMatch(neighbor, relatedOther))
+                        {
+                            anyRelatedMatch = true;
+                            break;
+                        }
                     }
                 }
 
-                if (!anyRelatedMatch) return false;
+                return anyRelatedMatch;
             }
-            else if (neighbor == TilingRuleOutput.Neighbor.NotThis)
-            {
-                if (!RuleMatch(neighbor, other))
-                {
-                    return false;
-                }
 
-                foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
+            if (neighbor == TilingRuleOutput.Neighbor.NotThis)
+            {
+                var allRelatedMatch = RuleMatch(neighbor, other);
+
+                if (allRelatedMatch)
                 {
-                    var relatedTilemap = relatedCrossTilemap.Tilemap;
-                    var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
-                    if (!RuleMatch(neighbor, relatedOther))
+                    foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
                     {
-                        return false;
+                        var relatedTilemap = relatedCrossTilemap.Tilemap;
+                        var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                        if (!RuleMatch(neighbor, relatedOther))
+                        {
+                            allRelatedMatch = false;
+                            break;
+                        }
                     }
                 }
+
+                return allRelatedMatch;
             }
 
             return true;

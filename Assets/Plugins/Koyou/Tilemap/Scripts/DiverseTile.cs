@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 namespace Koyou
 {
     [CreateAssetMenu(fileName = "DiverseTile", menuName = "2D/Tiles/DiverseTile")]
-    public class DiverseTile : RuleTile
+    public class DiverseTile : KoyouRuleTile
     {
         [SerializeField] private MatchType matchType;
 

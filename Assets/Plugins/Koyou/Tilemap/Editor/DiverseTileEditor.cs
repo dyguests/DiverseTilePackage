@@ -7,5 +7,5 @@ namespace Koyou
     /// </summary>
     [CustomEditor(typeof(DiverseTile), true)]
     [CanEditMultipleObjects]
-    public class DiverseTileEditor : RuleTileEditor { }
+    public class DiverseTileEditor : KoyouRuleTileEditor { }
 }

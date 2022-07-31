@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add RuleMatches rotate.">
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" afterDir="false" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add RuleMatches mirror.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +55,12 @@
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" />
       <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/RuleTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -362,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659249107770</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add RuleMatches mirror.">
+      <created>1659249168361</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1659249168361</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +418,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add DiverseTile." />
     <MESSAGE value="DiverseTileEditor." />
     <MESSAGE value="MatchType" />
     <MESSAGE value="DiverseTile." />
@@ -434,6 +442,7 @@
     <MESSAGE value="start Match cross tilemap." />
     <MESSAGE value="match include crossTilemap." />
     <MESSAGE value="add RuleMatches rotate." />
-    <option name="LAST_COMMIT_MESSAGE" value="add RuleMatches rotate." />
+    <MESSAGE value="add RuleMatches mirror." />
+    <option name="LAST_COMMIT_MESSAGE" value="add RuleMatches mirror." />
   </component>
 </project>

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 using UnityEngine.Tilemaps;
 
 namespace Koyou
@@ -19,6 +20,18 @@ namespace Koyou
                 if (mTilemap == null) mTilemap = GetComponent<Tilemap>();
                 return mTilemap;
             }
+        }
+
+#if UNITY_EDITOR
+        private void OnValidate()
+        {
+            SetDirty();
+        }
+#endif
+
+        private void SetDirty()
+        {
+            SceneView.RepaintAll();
         }
     }
 }

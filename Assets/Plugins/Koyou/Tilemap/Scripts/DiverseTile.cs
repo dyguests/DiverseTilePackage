@@ -89,12 +89,42 @@ namespace Koyou
 
         public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, int angle)
         {
+            var tmpMap = tilemap.GetComponent<Tilemap>();
+            if (tmpMap != null)
+            {
+                var crossTilemap = tmpMap.GetComponent<CrossTilemap>();
+                if (crossTilemap != null)
+                {
+                    return RuleMatches(rule, position, tilemap, crossTilemap, angle);
+                }
+            }
+
             return base.RuleMatches(rule, position, tilemap, angle);
+        }
+
+        private bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, CrossTilemap crossTilemap, in int angle)
+        {
+            return false;
         }
 
         public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, bool mirrorX, bool mirrorY)
         {
+            var tmpMap = tilemap.GetComponent<Tilemap>();
+            if (tmpMap != null)
+            {
+                var crossTilemap = tmpMap.GetComponent<CrossTilemap>();
+                if (crossTilemap != null)
+                {
+                    return RuleMatches(rule, position, tilemap, crossTilemap, mirrorX, mirrorY);
+                }
+            }
+
             return base.RuleMatches(rule, position, tilemap, mirrorX, mirrorY);
+        }
+
+        private bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, CrossTilemap crossTilemap, in bool mirrorX, in bool mirrorY)
+        {
+            return false;
         }
 
         public enum MatchType

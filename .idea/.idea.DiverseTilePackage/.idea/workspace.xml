@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="move to Plugins/Koyou/Tilemap, add Asset Store Tools.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" afterDir="false" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="fix readme.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/THIRD PARTY NOTICES.md" />
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/LICENSE.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" />
+      <option value="$PROJECT_DIR$/README.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -92,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659156671511</updated>
       <workItem from="1659156677636" duration="18201000" />
-      <workItem from="1659238134277" duration="294000" />
+      <workItem from="1659238134277" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659202118891</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix readme.">
+      <created>1659238516113</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659238516113</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +347,7 @@
     <MESSAGE value="cannot export." />
     <MESSAGE value="move to assets." />
     <MESSAGE value="move to Plugins/Koyou/Tilemap, add Asset Store Tools." />
-    <option name="LAST_COMMIT_MESSAGE" value="move to Plugins/Koyou/Tilemap, add Asset Store Tools." />
+    <MESSAGE value="fix readme." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix readme." />
   </component>
 </project>

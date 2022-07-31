@@ -152,7 +152,34 @@ namespace Koyou
 
         private bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, CrossTilemap crossTilemap, in bool mirrorX, in bool mirrorY)
         {
-            return false;
+            var minCount = Math.Min(rule.m_Neighbors.Count, rule.m_NeighborPositions.Count);
+            for (int i = 0; i < minCount; i++)
+            {
+                int neighbor = rule.m_Neighbors[i];
+                Vector3Int positionOffset = GetMirroredPosition(rule.m_NeighborPositions[i], mirrorX, mirrorY);
+                TileBase other = tilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                if (!RuleMatch(neighbor, other))
+                {
+                    var anyRelatedMatch = false;
+                    foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
+                    {
+                        var relatedTilemap = relatedCrossTilemap.Tilemap;
+                        var relatedOther = relatedTilemap.GetTile(GetOffsetPosition(position, positionOffset));
+                        if (RuleMatch(neighbor, relatedOther))
+                        {
+                            anyRelatedMatch = true;
+                            break;
+                        }
+                    }
+
+                    if (anyRelatedMatch) return true;
+
+
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         public enum MatchType

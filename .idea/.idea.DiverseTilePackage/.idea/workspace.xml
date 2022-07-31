@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="cross-tilemap works.">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" afterDir="false" />
+    <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="doc.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,6 @@
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/THIRD PARTY NOTICES.md" />
       <option value="$PROJECT_DIR$/Packages/com.koyou.tilemap/LICENSE.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/RuleTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs" />
@@ -65,6 +64,8 @@
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" />
       <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -410,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659252597309</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="doc.">
+      <created>1659252721062</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1659252721062</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="red diverse tile." />
     <MESSAGE value="match has some problem." />
     <MESSAGE value="add red rule tile." />
     <MESSAGE value="diverse rule tile." />
@@ -482,6 +489,7 @@
     <MESSAGE value="RuleMatchesIncludeRelated." />
     <MESSAGE value="update sprite." />
     <MESSAGE value="cross-tilemap works." />
-    <option name="LAST_COMMIT_MESSAGE" value="cross-tilemap works." />
+    <MESSAGE value="doc." />
+    <option name="LAST_COMMIT_MESSAGE" value="doc." />
   </component>
 </project>

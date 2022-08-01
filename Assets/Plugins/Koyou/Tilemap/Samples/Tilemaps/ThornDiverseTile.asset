@@ -105,4 +105,4 @@ MonoBehaviour:
   matchType: 2
   matchMaskIn: 00000000000000000000000000000001
   matchMaskOut: 0
-  crossTilemap: 1
+  crossTilemap: 0

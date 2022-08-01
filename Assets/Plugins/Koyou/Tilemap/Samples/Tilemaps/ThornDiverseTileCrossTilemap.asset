@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de21cae3a7eaf9f49bda6ff4e36629b0, type: 3}
-  m_Name: ThornDiverseTile2
+  m_Name: ThornDiverseTileCrossTilemap
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 1671133542, guid: ab791439ac149a9479d2a711890c3b51, type: 3}
   m_DefaultGameObject: {fileID: 0}
@@ -105,4 +105,4 @@ MonoBehaviour:
   matchType: 2
   matchMaskIn: 00000000000000000000000000000001
   matchMaskOut: 0
-  crossTilemap: 0
+  crossTilemap: 1

@@ -19,6 +19,8 @@ namespace Koyou
         private int mMatchMaskIn;
         private int mMatchMaskOut;
 
+        [SerializeField] private bool crossTilemap;
+
         private void OnValidate()
         {
             SetDirtyInternal();
@@ -90,13 +92,16 @@ namespace Koyou
 
         public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, int angle)
         {
-            var tmpMap = tilemap.GetComponent<Tilemap>();
-            if (tmpMap != null)
+            if (crossTilemap)
             {
-                var crossTilemap = tmpMap.GetComponent<CrossTilemap>();
-                if (crossTilemap != null)
+                var tmpMap = tilemap.GetComponent<Tilemap>();
+                if (tmpMap != null)
                 {
-                    return RuleMatches(rule, position, tilemap, crossTilemap, angle);
+                    var crossTilemap = tmpMap.GetComponent<CrossTilemap>();
+                    if (crossTilemap != null)
+                    {
+                        return RuleMatches(rule, position, tilemap, crossTilemap, angle);
+                    }
                 }
             }
 
@@ -119,13 +124,16 @@ namespace Koyou
 
         public override bool RuleMatches(TilingRule rule, Vector3Int position, ITilemap tilemap, bool mirrorX, bool mirrorY)
         {
-            var tmpMap = tilemap.GetComponent<Tilemap>();
-            if (tmpMap != null)
+            if (crossTilemap)
             {
-                var crossTilemap = tmpMap.GetComponent<CrossTilemap>();
-                if (crossTilemap != null)
+                var tmpMap = tilemap.GetComponent<Tilemap>();
+                if (tmpMap != null)
                 {
-                    return RuleMatches(rule, position, tilemap, crossTilemap, mirrorX, mirrorY);
+                    var crossTilemap = tmpMap.GetComponent<CrossTilemap>();
+                    if (crossTilemap != null)
+                    {
+                        return RuleMatches(rule, position, tilemap, crossTilemap, mirrorX, mirrorY);
+                    }
                 }
             }
 
@@ -152,7 +160,7 @@ namespace Koyou
             {
                 bool anyRelatedMatch = RuleMatch(neighbor, other);
 
-                if (!anyRelatedMatch)
+                if (!anyRelatedMatch && crossTilemap)
                 {
                     foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
                     {
@@ -173,7 +181,7 @@ namespace Koyou
             {
                 var allRelatedMatch = RuleMatch(neighbor, other);
 
-                if (allRelatedMatch)
+                if (allRelatedMatch && crossTilemap)
                 {
                     foreach (var relatedCrossTilemap in crossTilemap.RelatedTilemaps)
                     {

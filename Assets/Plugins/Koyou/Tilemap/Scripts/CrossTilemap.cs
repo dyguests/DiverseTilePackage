@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -31,6 +32,7 @@ namespace Koyou
 
         private void SetDirty()
         {
+            relatedTilemaps = relatedTilemaps.Where(tilemap => tilemap != this).ToArray();
             SceneView.RepaintAll();
         }
     }

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80f58ab3-9830-46b0-8a23-9c438c256b3e" name="Default Changelist" comment="add crossTilemap switch.">
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README_CN.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiverseTilePackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Scenes/2.Cross-Tilemap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/DiverseTilePalette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/DiverseTilePalette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/ThornDiverseTile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Samples/Tilemaps/ThornDiverseTile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +58,14 @@
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/DiverseTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Editor/KoyouRuleTileEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/KoyouRuleTile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" />
       <option value="$PROJECT_DIR$/README.md" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/package.json" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/CHANGELOG.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/README.md" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/DiverseTile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README.md" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Scripts/CrossTilemap.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Koyou/Tilemap/Documentation/README_CN.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CeIYcZn2WDNEdPgkEv0XLMHTAP" />
@@ -112,7 +116,7 @@
       <workItem from="1659156677636" duration="18201000" />
       <workItem from="1659238134277" duration="1473000" />
       <workItem from="1659240778234" duration="4925000" />
-      <workItem from="1659365768359" duration="688000" />
+      <workItem from="1659365768359" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="Init project.">
       <created>1659166543155</created>
@@ -436,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659366109834</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add crossTilemap switch.">
+      <created>1659366519337</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1659366519337</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

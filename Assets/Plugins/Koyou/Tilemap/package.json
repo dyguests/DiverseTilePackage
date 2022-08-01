@@ -1,6 +1,6 @@
 {
   "name": "com.koyou.tilemap",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "Diverse Rule Tile",
   "description": "Customize the interaction between different Rule Tiles",
   "unity": "2019.1",
